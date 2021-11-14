@@ -6,7 +6,7 @@ import ZoomMtgEmbedded from "@zoomus/websdk/embedded";
 const apiKey = "Z0SooeRWTYeW-lMosu6Esw";
 const apiSecret = "zQ6vOkhNn1ipdNFuvsxyH2W0kY2IxO30i7WX";
 const meetingNumber = 9996965760;
-const role = 0;
+const role = 1;
 
 const client = ZoomMtgEmbedded.createClient();
 
@@ -75,10 +75,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <img src="https://assembo-static-us-east-1.s3.amazonaws.com/assembo_w.png" className="App-logo" alt="logo" />
+          <iframe height="620" align="middle" width="100%" border="0" src="https://docs.google.com/document/d/1EmPlSb-nAaeqaioBRYTqRzjp4UaFlO3ab8oLrTpQunI/edit?usp=sharing"></iframe>
           <a
             className="App-link"
             href="https://reactjs.org"
